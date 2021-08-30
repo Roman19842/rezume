@@ -1,5 +1,5 @@
 import React from 'react'
-import myStyle from './skills.module.css'
+
 import books from '../assets/images/books.jpg'
 import run from '../assets/images/run.jpg'
 import code from '../assets/images/code.jpg'
