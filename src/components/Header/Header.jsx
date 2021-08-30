@@ -17,7 +17,7 @@ import Contacts from '../Contacts';
 function Header() {
     return (
         <><Router>
-            <Navbar bg="primary" variant="dark" expand="md" >
+            <Navbar bg="primary" variant="dark" expand="lg" >
                 <Navbar.Brand href="/aboutme" style={{
                         color:'#FFA100',
                         paddingLeft: '30px',

@@ -7,14 +7,20 @@ import { Container, Row, Col, Image } from 'react-bootstrap'
 
 export default function Skills() {
     return (
-        <Container>
+        <Container style={{ marginTop: '2em',fontFamily: 'Balsamiq Sans',fontStyle: 'cursive',
+        }}>
             <Row xs={1} >
                 <Col md={4} ><Image src={books} style={{ width: '20rem'}}/></Col>
                 <Col md={4} ><Image src={run} style={{ width: '20rem' }}/></Col>
                 <Col md={4} ><Image src={code} style={{ width: '20rem' }}/></Col>
                 <Col md={12}>
                     <div>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore veritatis debitis incidunt, quo obcaecati culpa! Recusandae earum facere delectus, pariatur illo fuga veniam blanditiis saepe! Beatae neque dicta dolorem aut!
+                        <h4 style={{ fontStyle:'bold'}}>My skills:</h4>
+                        Profound knowledge of aviation ,aerodynamics, mechanics, electrical and radio engineering and Computer Engineering.   In order to be up to date, I take courses on OpenEdu.ru, watch YouTube videos, read professional literature and articles. I love my profession and take responsibility for what I do. I have a good command of gadgets and  PCs (MC office, …). I’m also interested in programming so in my free time I study it (I successfully completed a Python course by Bauman University). This site was created by me.
+                        I’m eager for knowledge and activities so reading and jogging are always in my life.
+                        <p>Driving licence: A,B,C categories</p>
+                        <p>Technical English</p>
+
                     </div>
                 </Col>
             </Row>
