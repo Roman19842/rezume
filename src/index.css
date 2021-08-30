@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+.cert { 
+  border-style: solid;
+  border-color: #FFA100;
+   margin-top: 5rem;
+   padding: 2rem;
+   background-color:#79AFFE;
+  font-family: 'Balsamiq Sans',cursive;
+  font-family: 'Merriweather',serif;
+}
+
